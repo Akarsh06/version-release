@@ -6,7 +6,7 @@ const ExampleChart = () => {
   return (
     <Chart
   width={'100%'}
-  height={'500px'}
+  height={'350px'}
   chartType="Timeline"
   loader={<div>Loading Chart</div>}
   data={[
@@ -17,91 +17,91 @@ const ExampleChart = () => {
       { type: 'date', id: 'End' },
     ],
     [
-      'dKOSH V5.0',
+      'dKOSH v5.0',
       'Design',
       new Date(2020, 4, 1),
       new Date(2020, 8, 1),
     ],
     [
-      'dKOSH V5.0',
+      'dKOSH v5.0',
       'Development',
       new Date(2020, 8, 1),
       new Date(2021, 0, 1),
     ],
     [
-      'dKOSH V5.0',
+      'dKOSH v5.0',
       'Testing',
       new Date(2021, 0, 1),
       new Date(2021, 4, 1),
     ],
     [
-      'dKOSH V4.0',
+      'dKOSH v4.0',
       'Design',
       new Date(2020, 0, 1),
       new Date(2020, 4, 1),
     ],
     [
-      'dKOSH V4.0',
+      'dKOSH v4.0',
       'Development',
       new Date(2020, 4, 1),
       new Date(2020, 8, 1),
     ],
     [
-      'dKOSH V4.0',
+      'dKOSH v4.0',
       'Testing',
       new Date(2020, 8, 1),
       new Date(2021, 0, 1),
     ],
     [
-      'dKOSH V3.0',
+      'dKOSH v3.0',
       'Design',
       new Date(2019, 8, 1),
       new Date(2020, 0, 1),
     ],
     [
-      'dKOSH V3.0',
+      'dKOSH v3.0',
       'Development',
       new Date(2020, 0, 1),
       new Date(2020, 4, 1),
     ],
     [
-      'dKOSH V3.0',
+      'dKOSH v3.0',
       'Testing',
       new Date(2020, 4, 1),
       new Date(2020, 8, 1),
     ],
     [
-      'dKOSH V2.0',
+      'dKOSH v2.0',
       'Design',
       new Date(2019, 4, 1),
       new Date(2019, 8, 1),
     ],
     [
-      'dKOSH V2.0',
+      'dKOSH v2.0',
       'Development',
       new Date(2019, 8, 1),
       new Date(2020, 0, 1),
     ],
     [
-      'dKOSH V2.0',
+      'dKOSH v2.0',
       'Testing',
       new Date(2020, 0, 1),
       new Date(2020, 3, 31),
     ],
     [
-      'dKOSH V1.0',
+      'dKOSH v1.0',
       'Design',
       new Date(2019, 0, 1),
       new Date(2019, 4, 1),
     ],
     [
-      'dKOSH V1.0',
+      'dKOSH v1.0',
       'Development',
       new Date(2019, 4, 1),
       new Date(2019, 8, 1),
     ],
     [
-      'dKOSH V1.0',
+      'dKOSH v1.0',
       'Testing',
       new Date(2019, 8, 1),
       new Date(2020, 0, 1),
